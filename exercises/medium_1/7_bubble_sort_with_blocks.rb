@@ -7,6 +7,7 @@ def bubble_sort!(array)
       else
         next if array[index - 1] <= array[index]
       end
+      
       array[index - 1], array[index] = array[index], array[index - 1]
       swapped = true
     end
