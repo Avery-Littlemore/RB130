@@ -69,3 +69,15 @@ end
 # puts BeerSong.lyrics
 # puts BeerSong.verse(99)
 # puts BeerSong.verses(10,7)
+
+def lyrics(num)
+  if num > 2
+  # ...        
+  elsif num == 2
+  # ...
+  elsif num == 1
+  # ...
+  else
+  # ...
+  end
+end
